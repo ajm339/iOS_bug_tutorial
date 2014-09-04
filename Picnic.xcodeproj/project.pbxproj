@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BEE8CBF19B7F0B5007F256F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEE8CBE19B7F0B5007F256F /* AppDelegate.swift */; };
+		7BEE8CC119B7F0B5007F256F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEE8CC019B7F0B5007F256F /* ViewController.swift */; };
+		7BEE8CC419B7F0B5007F256F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BEE8CC219B7F0B5007F256F /* Main.storyboard */; };
+		7BEE8CC619B7F0B5007F256F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BEE8CC519B7F0B5007F256F /* Images.xcassets */; };
+		7BEE8CD219B7F0B5007F256F /* PicnicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEE8CD119B7F0B5007F256F /* PicnicTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BEE8CCC19B7F0B5007F256F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BEE8CB119B7F0B5007F256F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BEE8CB819B7F0B5007F256F;
+			remoteInfo = Picnic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BEE8CB919B7F0B5007F256F /* Picnic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Picnic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEE8CBD19B7F0B5007F256F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BEE8CBE19B7F0B5007F256F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BEE8CC019B7F0B5007F256F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BEE8CC319B7F0B5007F256F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BEE8CC519B7F0B5007F256F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7BEE8CCB19B7F0B5007F256F /* PicnicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicnicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEE8CD019B7F0B5007F256F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BEE8CD119B7F0B5007F256F /* PicnicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicnicTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BEE8CB619B7F0B5007F256F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BEE8CC819B7F0B5007F256F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BEE8CB019B7F0B5007F256F = {
+			isa = PBXGroup;
+			children = (
+				7BEE8CBB19B7F0B5007F256F /* Picnic */,
+				7BEE8CCE19B7F0B5007F256F /* PicnicTests */,
+				7BEE8CBA19B7F0B5007F256F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BEE8CBA19B7F0B5007F256F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BEE8CB919B7F0B5007F256F /* Picnic.app */,
+				7BEE8CCB19B7F0B5007F256F /* PicnicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BEE8CBB19B7F0B5007F256F /* Picnic */ = {
+			isa = PBXGroup;
+			children = (
+				7BEE8CBE19B7F0B5007F256F /* AppDelegate.swift */,
+				7BEE8CC019B7F0B5007F256F /* ViewController.swift */,
+				7BEE8CC219B7F0B5007F256F /* Main.storyboard */,
+				7BEE8CC519B7F0B5007F256F /* Images.xcassets */,
+				7BEE8CBC19B7F0B5007F256F /* Supporting Files */,
+			);
+			path = Picnic;
+			sourceTree = "<group>";
+		};
+		7BEE8CBC19B7F0B5007F256F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BEE8CBD19B7F0B5007F256F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BEE8CCE19B7F0B5007F256F /* PicnicTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BEE8CD119B7F0B5007F256F /* PicnicTests.swift */,
+				7BEE8CCF19B7F0B5007F256F /* Supporting Files */,
+			);
+			path = PicnicTests;
+			sourceTree = "<group>";
+		};
+		7BEE8CCF19B7F0B5007F256F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BEE8CD019B7F0B5007F256F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BEE8CB819B7F0B5007F256F /* Picnic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BEE8CD519B7F0B5007F256F /* Build configuration list for PBXNativeTarget "Picnic" */;
+			buildPhases = (
+				7BEE8CB519B7F0B5007F256F /* Sources */,
+				7BEE8CB619B7F0B5007F256F /* Frameworks */,
+				7BEE8CB719B7F0B5007F256F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Picnic;
+			productName = Picnic;
+			productReference = 7BEE8CB919B7F0B5007F256F /* Picnic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BEE8CCA19B7F0B5007F256F /* PicnicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BEE8CD819B7F0B5007F256F /* Build configuration list for PBXNativeTarget "PicnicTests" */;
+			buildPhases = (
+				7BEE8CC719B7F0B5007F256F /* Sources */,
+				7BEE8CC819B7F0B5007F256F /* Frameworks */,
+				7BEE8CC919B7F0B5007F256F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BEE8CCD19B7F0B5007F256F /* PBXTargetDependency */,
+			);
+			name = PicnicTests;
+			productName = PicnicTests;
+			productReference = 7BEE8CCB19B7F0B5007F256F /* PicnicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BEE8CB119B7F0B5007F256F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					7BEE8CB819B7F0B5007F256F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					7BEE8CCA19B7F0B5007F256F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 7BEE8CB819B7F0B5007F256F;
+					};
+				};
+			};
+			buildConfigurationList = 7BEE8CB419B7F0B5007F256F /* Build configuration list for PBXProject "Picnic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BEE8CB019B7F0B5007F256F;
+			productRefGroup = 7BEE8CBA19B7F0B5007F256F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BEE8CB819B7F0B5007F256F /* Picnic */,
+				7BEE8CCA19B7F0B5007F256F /* PicnicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BEE8CB719B7F0B5007F256F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEE8CC419B7F0B5007F256F /* Main.storyboard in Resources */,
+				7BEE8CC619B7F0B5007F256F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BEE8CC919B7F0B5007F256F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BEE8CB519B7F0B5007F256F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEE8CC119B7F0B5007F256F /* ViewController.swift in Sources */,
+				7BEE8CBF19B7F0B5007F256F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BEE8CC719B7F0B5007F256F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEE8CD219B7F0B5007F256F /* PicnicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BEE8CCD19B7F0B5007F256F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BEE8CB819B7F0B5007F256F /* Picnic */;
+			targetProxy = 7BEE8CCC19B7F0B5007F256F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BEE8CC219B7F0B5007F256F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BEE8CC319B7F0B5007F256F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BEE8CD319B7F0B5007F256F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BEE8CD419B7F0B5007F256F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BEE8CD619B7F0B5007F256F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Picnic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BEE8CD719B7F0B5007F256F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Picnic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BEE8CD919B7F0B5007F256F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PicnicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picnic.app/Picnic";
+			};
+			name = Debug;
+		};
+		7BEE8CDA19B7F0B5007F256F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PicnicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picnic.app/Picnic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BEE8CB419B7F0B5007F256F /* Build configuration list for PBXProject "Picnic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEE8CD319B7F0B5007F256F /* Debug */,
+				7BEE8CD419B7F0B5007F256F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BEE8CD519B7F0B5007F256F /* Build configuration list for PBXNativeTarget "Picnic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEE8CD619B7F0B5007F256F /* Debug */,
+				7BEE8CD719B7F0B5007F256F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BEE8CD819B7F0B5007F256F /* Build configuration list for PBXNativeTarget "PicnicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BEE8CD919B7F0B5007F256F /* Debug */,
+				7BEE8CDA19B7F0B5007F256F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BEE8CB119B7F0B5007F256F /* Project object */;
+}
